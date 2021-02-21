@@ -5,6 +5,9 @@
 @import "scss_elements/colorful";
 @import "scss_elements/cards";
 @import "scss_elements/opinion_block";
+@import "scss_elements/gallery";
+@import "scss_elements/partner_list";
+@import "scss_elements/footer";
 
 body {
 	font-family: "Lato", sans-serif;
@@ -133,8 +136,52 @@ nav {
 	margin-bottom: 162px;
 }
 
+.cirno-photos {
+	padding-bottom: 193px;
+}
+
 .cirno-photos h2 {
 	text-align: center;
 	font-size: $cirno-photos-title-font-size;
 	font-weight: $cirno-photos-title-font-weight;
+	margin-bottom: 42px;
+}
+
+.partners {
+	text-align: center;
+	color: $font-color-2;
+	margin-bottom: 52px;
+}
+
+.partners h4 {
+	font-size: $partners-title-font-size;
+	margin-bottom: 20px;
+}
+
+.partners hr {
+	border: 3px solid #707070;
+	width: 10%;
+}
+
+.partners-title {
+	margin: 37px 0 55px 0;
+}
+
+.cirno-quote {
+	margin-bottom: 58px;
+}
+
+blockquote {
+	text-align: center;
+	font-size: $blockquote-font-size;
+	font-weight: $blockquote-font-weight;
+}
+
+sub {
+	display: inline-block;
+	position: relative;
+	transform: translateY(50%);
+	font-size: $sub-font-size;
+	font-weight: $sub-font-weight;
+	color: $sub-color;
 }

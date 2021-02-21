@@ -255,6 +255,117 @@
           transform: translateX(-25%);
 }
 
+.gallery {
+  position: relative;
+  margin: auto;
+  width: 1200px;
+  height: 650px;
+}
+
+.gallery-img {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-arrow-right {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+
+.gallery-arrow-left {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.gallery-orbs {
+  position: absolute;
+  bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.inactive {
+  opacity: 0.5;
+}
+
+.partner-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50%;
+  padding: 45px 380px 90px 135px;
+  width: 100%;
+  height: 280px;
+  background-color: #406be0;
+}
+
+.footer-copyright {
+  -webkit-transform: translate(-24px, -50%);
+          transform: translate(-24px, -50%);
+  margin-top: 110px;
+}
+
+.footer-copyright,
+footer h6 {
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.footer-contact-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 197px;
+}
+
+.footer-contact,
+.footer-address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.footer-info {
+  opacity: 66%;
+}
+
+.footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 26px;
+}
+
 body {
   font-family: "Lato", sans-serif;
   color: white;
@@ -388,9 +499,54 @@ nav {
   margin-bottom: 162px;
 }
 
+.cirno-photos {
+  padding-bottom: 193px;
+}
+
 .cirno-photos h2 {
   text-align: center;
   font-size: 114px;
   font-weight: 600;
+  margin-bottom: 42px;
+}
+
+.partners {
+  text-align: center;
+  color: #3b3cf7;
+  margin-bottom: 52px;
+}
+
+.partners h4 {
+  font-size: 37px;
+  margin-bottom: 20px;
+}
+
+.partners hr {
+  border: 3px solid #707070;
+  width: 10%;
+}
+
+.partners-title {
+  margin: 37px 0 55px 0;
+}
+
+.cirno-quote {
+  margin-bottom: 58px;
+}
+
+blockquote {
+  text-align: center;
+  font-size: 37px;
+  font-weight: 400;
+}
+
+sub {
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
