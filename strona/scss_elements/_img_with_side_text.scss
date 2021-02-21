@@ -1,0 +1,51 @@
+/*BIG*/
+
+.img-with-side-text {
+	display: flex;
+	padding: 0 140px;
+	gap: 20px;
+	width: 80%;
+}
+
+.img-with-side-text .side-text {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding-top: 5.5%;
+}
+
+.img-with-side-text .side-img {
+	flex-basis: 300%;
+}
+
+.img-with-side-text .side-img img {
+	width: 100%;
+}
+
+/*SMOL*/
+
+.small-img-with-side-text {
+	display: flex;
+	padding: 0 140px;
+	gap: 110px;
+	width: 80%;
+}
+
+.small-img-with-side-text .small-side-text {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.small-img-with-side-text .side-text-title {
+	font-weight: $small-side-text-title-font-weight;
+	font-size: $small-side-text-title-font-size;
+}
+
+.small-img-with-side-text .side-text-paragraph {
+	font-weight: $small-side-text-paragraph-font-weight;
+	font-size: $small-side-text-paragraph-font-size;
+}

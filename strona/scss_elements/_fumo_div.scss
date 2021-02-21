@@ -1,0 +1,28 @@
+.fumo-div {
+	background: url("../img/fumo_patrzy.png");
+	background-repeat: no-repeat;
+	background-size: 105%;
+	background-position-y: -1200px;
+	padding: 70px 550px 220px 550px;
+}
+
+.fumo-div-title,
+.fumo-div-button {
+	margin: auto;
+}
+
+.fumo-div-title {
+	text-align: center;
+	color: $fumo-div-title-color;
+	-webkit-text-stroke: 3px $fumo-div-title-border-color;
+	margin-bottom: 35px;
+}
+
+.fumo-div-decoration {
+	position: relative;
+	bottom: 0;
+	transform: translate(0, -100%);
+	height: $fumo-div-decoration-height;
+	background-size: 100% 100%;
+	background-image: url("../img/fumo_div_decoration.png");
+}

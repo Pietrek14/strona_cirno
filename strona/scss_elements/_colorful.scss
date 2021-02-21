@@ -1,0 +1,23 @@
+.colorful {
+	color: $font-color;
+}
+
+.light-blue-div {
+	background-color: $light-blue-div-background;
+	padding-top: 140px;
+}
+
+.dark-blue-div {
+	background-color: $dark-blue-div-background;
+	padding-bottom: 175px;
+}
+
+.light-blue-to-dark-blue {
+	position: relative;
+	bottom: -3px;
+	width: 100%;
+}
+
+.light-blue-to-dark-blue polygon {
+	fill: $dark-blue-div-background;
+}

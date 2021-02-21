@@ -1,0 +1,396 @@
+/*BIG*/
+.img-with-side-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 140px;
+  gap: 20px;
+  width: 80%;
+}
+
+.img-with-side-text .side-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  padding-top: 5.5%;
+}
+
+.img-with-side-text .side-img {
+  -ms-flex-preferred-size: 300%;
+      flex-basis: 300%;
+}
+
+.img-with-side-text .side-img img {
+  width: 100%;
+}
+
+/*SMOL*/
+.small-img-with-side-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 140px;
+  gap: 110px;
+  width: 80%;
+}
+
+.small-img-with-side-text .small-side-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.small-img-with-side-text .side-text-title {
+  font-weight: 300;
+  font-size: 70px;
+}
+
+.small-img-with-side-text .side-text-paragraph {
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.fumo-div {
+  background: url("../img/fumo_patrzy.png");
+  background-repeat: no-repeat;
+  background-size: 105%;
+  background-position-y: -1200px;
+  padding: 70px 550px 220px 550px;
+}
+
+.fumo-div-title,
+.fumo-div-button {
+  margin: auto;
+}
+
+.fumo-div-title {
+  text-align: center;
+  color: #6939ed;
+  -webkit-text-stroke: 3px white;
+  margin-bottom: 35px;
+}
+
+.fumo-div-decoration {
+  position: relative;
+  bottom: 0;
+  -webkit-transform: translate(0, -100%);
+          transform: translate(0, -100%);
+  height: 140px;
+  background-size: 100% 100%;
+  background-image: url("../img/fumo_div_decoration.png");
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 63.5%;
+  margin: auto;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  gap: 10%;
+}
+
+.list-element {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.list-element-title {
+  margin-bottom: 25px;
+}
+
+.list-element-img {
+  display: inline-block;
+  width: 90%;
+  height: 220px;
+  border-radius: 40px;
+}
+
+.colorful {
+  color: white;
+}
+
+.light-blue-div {
+  background-color: #3b9ff7;
+  padding-top: 140px;
+}
+
+.dark-blue-div {
+  background-color: #3b3cf7;
+  padding-bottom: 175px;
+}
+
+.light-blue-to-dark-blue {
+  position: relative;
+  bottom: -3px;
+  width: 100%;
+}
+
+.light-blue-to-dark-blue polygon {
+  fill: #3b3cf7;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 66px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px 30px;
+  padding: 10px 35px 30px 35px;
+  border: 1px solid #707070;
+  width: 510px;
+  height: 350px;
+  text-align: center;
+}
+
+.card-title {
+  height: 120px;
+  position: relative;
+}
+
+.card-title h5 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.card-subtitle {
+  font-size: 39px;
+  font-weight: 600;
+}
+
+.opinion-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 85px;
+  padding: 105px 0 160px 0;
+  margin: auto;
+  text-align: center;
+}
+
+.opinion-block-title h4 {
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.opinions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 250px;
+  margin: 0 275px 0 275px;
+}
+
+.opinion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 18px;
+  text-align: center;
+}
+
+.opinion-img {
+  width: 290px;
+  height: 290px;
+  margin: auto;
+}
+
+.opinion-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.opinion-title h6 {
+  font-size: 46px;
+  font-weight: 600;
+}
+
+.opinion-paragraph {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: justify;
+  font-style: italic;
+  line-height: 33px;
+  width: 175%;
+  -webkit-transform: translateX(-25%);
+          transform: translateX(-25%);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+.top-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 104px;
+  background: #406be0 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 95px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #3b3cf7;
+  font-size: 31px;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+button {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  padding: 13px 21px 12px 23px;
+  color: white;
+  font-size: 31px;
+  background: #3b9ff7;
+  border: none;
+  border-radius: 28px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background: #406be0;
+}
+
+.strongest-fairy-div {
+  margin-bottom: 140px;
+}
+
+.title,
+nav {
+  margin: auto;
+}
+
+.nav-cell {
+  font-size: 31px;
+  margin: 0px 65px 0px 65px;
+  text-decoration: none;
+  color: white;
+}
+
+.cirno-strengths {
+  display: block;
+  margin-bottom: 300px;
+}
+
+.upperline {
+  width: 70%;
+}
+
+.underline {
+  width: 20%;
+  border: 3px solid #ffffff;
+}
+
+.color-3-text {
+  color: black;
+}
+
+.background-underneath {
+  background: url("/img/cirno_the_ice_fairy1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+
+.rounded {
+  border-radius: 43px;
+}
+
+.cirno-statistics {
+  margin: 90px 127px 53px 128px;
+}
+
+.cirno-social {
+  background-color: #39c8ed;
+}
+
+.cirno-friends {
+  margin-bottom: 162px;
+}
+
+.cirno-photos h2 {
+  text-align: center;
+  font-size: 114px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */

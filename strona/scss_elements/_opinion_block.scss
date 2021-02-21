@@ -1,0 +1,52 @@
+.opinion-block {
+	display: flex;
+	flex-direction: column;
+	gap: 85px;
+	padding: 105px 0 160px 0;
+	margin: auto;
+	text-align: center;
+}
+
+.opinion-block-title h4 {
+	margin-bottom: 30px;
+	font-weight: $opinion-block-title-weight;
+}
+
+.opinions {
+	display: flex;
+	gap: 250px;
+	margin: 0 275px 0 275px;
+}
+
+.opinion {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+	text-align: center;
+}
+
+.opinion-img {
+	width: 290px;
+	height: 290px;
+	margin: auto;
+}
+
+.opinion-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.opinion-title h6 {
+	font-size: $opinion-title-size;
+	font-weight: $opinion-title-weight;
+}
+
+.opinion-paragraph {
+	font-size: $opinion-paragraph-size;
+	font-weight: $opinion-paragraph-weight;
+	text-align: justify;
+	font-style: italic;
+	line-height: $opinion-paragraph-line-height;
+	width: 175%;
+	transform: translateX(-25%);
+}
