@@ -7,6 +7,7 @@
 @import "scss_elements/opinion_block";
 @import "scss_elements/gallery";
 @import "scss_elements/partner_list";
+@import "scss_elements/quote";
 @import "scss_elements/footer";
 
 body {
@@ -169,12 +170,6 @@ nav {
 
 .cirno-quote {
 	margin-bottom: 58px;
-}
-
-blockquote {
-	text-align: center;
-	font-size: $blockquote-font-size;
-	font-weight: $blockquote-font-weight;
 }
 
 sub {

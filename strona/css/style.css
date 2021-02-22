@@ -313,6 +313,34 @@
           justify-content: center;
 }
 
+blockquote {
+  text-align: center;
+  font-size: 37px;
+  font-weight: 400;
+}
+
+.quotation-mark-bottom {
+  display: inline-block;
+  background-image: url("../img/quotation-mark.png");
+  background-size: cover;
+  opacity: 50%;
+  width: 10px;
+  height: 10px;
+  -webkit-transform: translate(-50px, 25%);
+          transform: translate(-50px, 25%);
+}
+
+.quotation-mark-top {
+  display: inline-block;
+  background-image: url("../img/quotation-mark.png");
+  background-size: cover;
+  opacity: 50%;
+  width: 10px;
+  height: 10px;
+  -webkit-transform: translate(15px, -150%) scaleY(-1);
+          transform: translate(15px, -150%) scaleY(-1);
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -564,12 +592,6 @@ nav {
 
 .cirno-quote {
   margin-bottom: 58px;
-}
-
-blockquote {
-  text-align: center;
-  font-size: 37px;
-  font-weight: 400;
 }
 
 sub {
