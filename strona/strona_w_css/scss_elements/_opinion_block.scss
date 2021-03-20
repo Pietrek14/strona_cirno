@@ -13,16 +13,12 @@
 }
 
 .opinions {
-	display: flex;
-	gap: 250px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 290px 109px 350px;
+	row-gap: 18px;
+	column-gap: 250px;
 	margin: 0 275px 0 275px;
-}
-
-.opinion {
-	display: flex;
-	flex-direction: column;
-	gap: 18px;
-	text-align: center;
 }
 
 .opinion-img {
@@ -39,6 +35,7 @@
 .opinion-title h6 {
 	font-size: $opinion-title-size;
 	font-weight: $opinion-title-weight;
+	text-align: center;
 }
 
 .opinion-paragraph {

@@ -42,6 +42,7 @@ window.onload = () => {
 	};
 	leftArrow.onclick = () => {
 		photo_index = (photo_index - 1) % photos.length;
+		if (photo_index < 0) photo_index = photos.length - 1;
 		updatePhoto();
 	};
 };
