@@ -66,6 +66,14 @@
   line-height: 2.25vw;
 }
 
+.light-blue {
+  background-color: #3b9ff7;
+}
+
+.blue {
+  background-color: #3b3cf7;
+}
+
 body {
   font-family: "Lato", sans-serif;
   color: white;
