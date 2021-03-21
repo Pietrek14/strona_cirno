@@ -1,0 +1,23 @@
+@media (min-width: 1000px) {
+	.cirno-strengths {
+		gap: 4rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.cirno-strengths {
+		gap: 8rem;
+	}
+}
+
+.cirno-strengths {
+	margin-bottom: 15vw;
+}
+
+.cirno-strength-title {
+	color: $font-color-2;
+}
+
+.cirno-strength-img {
+	border-radius: 1rem;
+}

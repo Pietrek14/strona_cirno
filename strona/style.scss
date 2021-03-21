@@ -1,5 +1,7 @@
 @import "scss_elements/vars";
 @import "scss_elements/fumo_div";
+@import "scss_elements/cirno_strengths";
+@import "scss_elements/img_with_text";
 
 body {
 	font-family: "Lato", sans-serif;
@@ -89,11 +91,6 @@ button:active {
 .title,
 nav {
 	margin: auto;
-}
-
-.cirno-strengths {
-	display: block;
-	margin-bottom: 300px;
 }
 
 .upperline {

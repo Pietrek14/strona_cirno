@@ -1,7 +1,8 @@
 .fumo-div {
-	background: url("../img/fumo_patrzy.png");
+	background: url("../img/fumo_div_background.png");
 	background-repeat: no-repeat;
-	background-size: 105%;
+	background-size: cover;
+	background-position: center;
 	padding-top: 5rem;
 	padding-bottom: 10rem;
 }
