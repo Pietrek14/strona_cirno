@@ -68,10 +68,23 @@
 
 .light-blue {
   background-color: #3b9ff7;
+  padding-top: 5vw;
 }
 
 .blue {
   background-color: #3b3cf7;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+
+.light-blue-to-dark-blue {
+  position: relative;
+  bottom: -3px;
+  width: 100%;
+}
+
+.light-blue-to-dark-blue polygon {
+  fill: #3b3cf7;
 }
 
 body {
@@ -249,5 +262,9 @@ sub {
   font-size: 20px;
   font-weight: 300;
   color: black;
+}
+
+.img-on-colors {
+  border-radius: 43px;
 }
 /*# sourceMappingURL=style.css.map */
