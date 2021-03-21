@@ -74,6 +74,13 @@ button:active {
 	margin: auto;
 }
 
+.nav-item:hover {
+	color: $font-color;
+	text-decoration: underline;
+	font-size: $p-font-size;
+	margin: auto;
+}
+
 .strongest-fairy-div {
 	margin-bottom: 140px;
 }
