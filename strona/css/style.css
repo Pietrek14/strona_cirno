@@ -2,7 +2,13 @@
   background: url("../img/fumo_patrzy.png");
   background-repeat: no-repeat;
   background-size: 105%;
-  background-position-y: -1200px;
+  padding-top: 70px;
+  padding-bottom: 280px;
+}
+
+.fumo-div-title {
+  color: #6939ed;
+  border: 3px solid white;
 }
 
 body {
