@@ -4,6 +4,7 @@
 @import "scss_elements/img_with_text";
 @import "scss_elements/colors";
 @import "scss_elements/number_card";
+@import "scss_elements/gallery";
 
 body {
 	font-family: "Lato", sans-serif;
@@ -194,4 +195,14 @@ sub {
 	font-size: 20px;
 	font-style: italic;
 	line-height: 23px;
+}
+
+.h1-responsive {
+	font-size: 5vw;
+}
+
+.hr-underline {
+	width: 150px;
+	border: 2px solid #707070;
+	opacity: 1;
 }
