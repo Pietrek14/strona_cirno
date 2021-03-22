@@ -148,8 +148,46 @@
   width: 100%;
 }
 
+.gallery-orb {
+  width: 2vw;
+}
+
+@media (min-width: 1000px) {
+  .gallery-orb {
+    width: 1vw;
+  }
+}
+
 .inactive {
   opacity: 0.5;
+}
+
+blockquote {
+  text-align: center;
+  font-size: 37px;
+  font-weight: 400;
+}
+
+.quotation-mark-bottom {
+  display: inline-block;
+  background-image: url("../img/quotation-mark.png");
+  background-size: cover;
+  opacity: 50%;
+  width: 10px;
+  height: 10px;
+  -webkit-transform: translate(-35px, 25%);
+          transform: translate(-35px, 25%);
+}
+
+.quotation-mark-top {
+  display: inline-block;
+  background-image: url("../img/quotation-mark.png");
+  background-size: cover;
+  opacity: 50%;
+  width: 10px;
+  height: 10px;
+  -webkit-transform: translate(15px, -150%) scaleY(-1);
+          transform: translate(15px, -150%) scaleY(-1);
 }
 
 body {
@@ -356,5 +394,13 @@ sub {
   width: 150px;
   border: 2px solid #707070;
   opacity: 1;
+}
+
+.w-90 {
+  width: 90vw;
+}
+
+footer {
+  background-color: #406be0;
 }
 /*# sourceMappingURL=style.css.map */

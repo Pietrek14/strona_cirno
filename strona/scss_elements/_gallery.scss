@@ -41,6 +41,13 @@
 }
 
 .gallery-orb {
+	width: 2vw;
+}
+
+@media (min-width: 1000px) {
+	.gallery-orb {
+		width: 1vw;
+	}
 }
 
 .inactive {
