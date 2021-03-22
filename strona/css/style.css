@@ -190,6 +190,11 @@ blockquote {
           transform: translate(15px, -150%) scaleY(-1);
 }
 
+.footer-info {
+  opacity: 66%;
+  font-size: 15px;
+}
+
 body {
   font-family: "Lato", sans-serif;
   color: white;
@@ -310,10 +315,6 @@ nav {
   border-radius: 43px;
 }
 
-.cirno-statistics {
-  margin: 90px 127px 53px 128px;
-}
-
 .cirno-social {
   background-color: #39c8ed;
 }
@@ -324,33 +325,6 @@ nav {
 
 .cirno-photos {
   padding-bottom: 193px;
-}
-
-.cirno-photos h2 {
-  text-align: center;
-  font-size: 114px;
-  font-weight: 600;
-  margin-bottom: 42px;
-}
-
-.partners {
-  text-align: center;
-  color: #3b3cf7;
-  margin-bottom: 52px;
-}
-
-.partners h4 {
-  font-size: 37px;
-  margin-bottom: 20px;
-}
-
-.partners hr {
-  border: 3px solid #707070;
-  width: 10%;
-}
-
-.partners-title {
-  margin: 37px 0 55px 0;
 }
 
 .cirno-quote {

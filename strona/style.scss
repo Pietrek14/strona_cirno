@@ -6,6 +6,7 @@
 @import "scss_elements/number_card";
 @import "scss_elements/gallery";
 @import "scss_elements/quote";
+@import "scss_elements/footer";
 
 body {
 	font-family: "Lato", sans-serif;
@@ -123,10 +124,6 @@ nav {
 	border-radius: 43px;
 }
 
-.cirno-statistics {
-	margin: 90px 127px 53px 128px;
-}
-
 .cirno-social {
 	background-color: $cirno-friends-div-background-color;
 }
@@ -137,33 +134,6 @@ nav {
 
 .cirno-photos {
 	padding-bottom: 193px;
-}
-
-.cirno-photos h2 {
-	text-align: center;
-	font-size: $cirno-photos-title-font-size;
-	font-weight: $cirno-photos-title-font-weight;
-	margin-bottom: 42px;
-}
-
-.partners {
-	text-align: center;
-	color: $font-color-2;
-	margin-bottom: 52px;
-}
-
-.partners h4 {
-	font-size: $partners-title-font-size;
-	margin-bottom: 20px;
-}
-
-.partners hr {
-	border: 3px solid #707070;
-	width: 10%;
-}
-
-.partners-title {
-	margin: 37px 0 55px 0;
 }
 
 .cirno-quote {
