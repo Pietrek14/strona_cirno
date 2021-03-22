@@ -87,6 +87,18 @@
   fill: #3b3cf7;
 }
 
+.number-card {
+  width: 25vw;
+  min-height: 400px;
+  padding: 2.5vw 0 1vw 0;
+  border: 1px solid;
+  line-height: 0.5vw;
+}
+
+.number-card-paragraph {
+  font-size: 28px;
+}
+
 body {
   font-family: "Lato", sans-serif;
   color: white;
@@ -216,7 +228,7 @@ nav {
 }
 
 .cirno-friends {
-  margin-bottom: 162px;
+  background-color: #39c8ed;
 }
 
 .cirno-photos {
@@ -266,5 +278,20 @@ sub {
 
 .img-on-colors {
   border-radius: 43px;
+}
+
+.mb-10 {
+  margin-bottom: 90px;
+}
+
+.hr-thick {
+  border: 2.5px solid white;
+  opacity: 1;
+}
+
+.opinion {
+  font-size: 20px;
+  font-style: italic;
+  line-height: 23px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,6 +3,7 @@
 @import "scss_elements/cirno_strengths";
 @import "scss_elements/img_with_text";
 @import "scss_elements/colors";
+@import "scss_elements/number_card";
 
 body {
 	font-family: "Lato", sans-serif;
@@ -129,7 +130,7 @@ nav {
 }
 
 .cirno-friends {
-	margin-bottom: 162px;
+	background-color: #39c8ed;
 }
 
 .cirno-photos {
@@ -178,4 +179,19 @@ sub {
 
 .img-on-colors {
 	border-radius: 43px;
+}
+
+.mb-10 {
+	margin-bottom: 90px;
+}
+
+.hr-thick {
+	border: 2.5px solid white;
+	opacity: 1;
+}
+
+.opinion {
+	font-size: 20px;
+	font-style: italic;
+	line-height: 23px;
 }
