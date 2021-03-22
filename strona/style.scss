@@ -185,3 +185,15 @@ sub {
 footer {
 	background-color: $footer-background-color;
 }
+
+@media (min-width: 1000px) {
+	.w-md-75 {
+		width: 75%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.w-sm-200px {
+		width: 200px;
+	}
+}

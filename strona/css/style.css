@@ -25,18 +25,17 @@
           transform: translateY(-100%);
 }
 
-@media (min-width: 1000px) {
-  .cirno-strengths {
-    gap: 4rem;
-  }
+/*@media (min-width: 1000px) {
+	.cirno-strengths {
+		gap: 4rem;
+	}
 }
 
 @media (min-width: 1200px) {
-  .cirno-strengths {
-    gap: 8rem;
-  }
-}
-
+	.cirno-strengths {
+		gap: 8rem;
+	}
+}*/
 .cirno-strengths {
   margin-bottom: 15vw;
 }
@@ -376,5 +375,17 @@ sub {
 
 footer {
   background-color: #406be0;
+}
+
+@media (min-width: 1000px) {
+  .w-md-75 {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .w-sm-200px {
+    width: 200px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
